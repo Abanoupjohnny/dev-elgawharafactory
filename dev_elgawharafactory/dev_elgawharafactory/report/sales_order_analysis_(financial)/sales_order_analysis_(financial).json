@@ -1,0 +1,40 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2024-07-03 03:33:06.696979",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"columns\":[{\"label\":\"Customer Name\",\"fieldname\":\"entity_name\",\"fieldtype\":\"Data\",\"width\":140,\"id\":\"entity_name\",\"name\":\"Customer Name\",\"editable\":false,\"compareValue\":null,\"_index\":1},{\"label\":\"Total\",\"fieldname\":\"total\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"total\",\"name\":\"Total\",\"editable\":false,\"compareValue\":null,\"_index\":2},{\"label\":\"Aug 2023\",\"fieldname\":\"aug_2023\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"aug_2023\",\"name\":\"Aug 2023\",\"editable\":false,\"compareValue\":null,\"_index\":3},{\"label\":\"Sep 2023\",\"fieldname\":\"sep_2023\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"sep_2023\",\"name\":\"Sep 2023\",\"editable\":false,\"compareValue\":null,\"_index\":4},{\"label\":\"Oct 2023\",\"fieldname\":\"oct_2023\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"oct_2023\",\"name\":\"Oct 2023\",\"editable\":false,\"compareValue\":null,\"_index\":5},{\"label\":\"Nov 2023\",\"fieldname\":\"nov_2023\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"nov_2023\",\"name\":\"Nov 2023\",\"editable\":false,\"compareValue\":null,\"_index\":6},{\"label\":\"Jul 2023\",\"fieldname\":\"jul_2023\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"jul_2023\",\"name\":\"Jul 2023\",\"editable\":false,\"compareValue\":null,\"_index\":7},{\"label\":\"Jan 2024\",\"fieldname\":\"jan_2024\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"jan_2024\",\"name\":\"Jan 2024\",\"editable\":false,\"compareValue\":null,\"_index\":8},{\"label\":\"Feb 2024\",\"fieldname\":\"feb_2024\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"feb_2024\",\"name\":\"Feb 2024\",\"editable\":false,\"compareValue\":null,\"_index\":9},{\"label\":\"Mar 2024\",\"fieldname\":\"mar_2024\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"mar_2024\",\"name\":\"Mar 2024\",\"editable\":false,\"compareValue\":null,\"_index\":10},{\"label\":\"Apr 2024\",\"fieldname\":\"apr_2024\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"apr_2024\",\"name\":\"Apr 2024\",\"editable\":false,\"compareValue\":null,\"_index\":11},{\"label\":\"May 2024\",\"fieldname\":\"may_2024\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"may_2024\",\"name\":\"May 2024\",\"editable\":false,\"compareValue\":null,\"_index\":12},{\"label\":\"Jun 2024\",\"fieldname\":\"jun_2024\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"jun_2024\",\"name\":\"Jun 2024\",\"editable\":false,\"compareValue\":null,\"_index\":13},{\"label\":\"Dec 2023\",\"fieldname\":\"dec_2023\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"dec_2023\",\"name\":\"Dec 2023\",\"editable\":false,\"compareValue\":null,\"_index\":14}],\"filters\":{\"tree_type\":\"Customer\",\"doc_type\":\"Sales Order\",\"value_quantity\":\"Value\",\"from_date\":\"2023-07-01\",\"to_date\":\"2024-06-30\",\"company\":\"elgawhara factory\",\"range\":\"Monthly\"}}",
+ "letterhead": null,
+ "modified": "2024-07-03 03:33:06.696979",
+ "modified_by": "Administrator",
+ "module": "Dev Elgawharafactory",
+ "name": "Sales Order Analysis (Financial)",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Sales Order",
+ "reference_report": "Sales Analytics",
+ "report_name": "Sales Order Analysis (Financial)",
+ "report_type": "Custom Report",
+ "roles": [
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Maintenance User"
+  },
+  {
+   "role": "Stock User"
+  },
+  {
+   "role": "Sales Manager"
+  }
+ ]
+}
