@@ -7,7 +7,8 @@ frappe.query_reports["Employee Daily Attendance"] = {
 			label: 'Employee',
 			fieldname: 'employee',
 			fieldtype: 'Link',
-			options: 'Employee'
+			options: 'Employee',
+			reqd:0
 		},
 		{
 			label: 'From Date',
