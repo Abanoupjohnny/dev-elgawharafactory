@@ -1,0 +1,5 @@
+from dev_elgawharafactory.tasks.employee_additional_salary import calculate_weekly_attendance_and_add_salary
+
+
+def apply_additional_salary_to_extra_day():
+    calculate_weekly_attendance_and_add_salary()

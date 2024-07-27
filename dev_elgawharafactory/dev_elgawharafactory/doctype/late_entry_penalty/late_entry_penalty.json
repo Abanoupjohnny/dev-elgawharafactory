@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-27 01:32:40.570086",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_penalties"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_penalties",
+   "fieldtype": "Table",
+   "label": "Employee Penalties",
+   "options": "Employee Penalties"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-27 01:32:55.139769",
+ "modified_by": "Administrator",
+ "module": "Dev Elgawharafactory",
+ "name": "Late Entry Penalty",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
