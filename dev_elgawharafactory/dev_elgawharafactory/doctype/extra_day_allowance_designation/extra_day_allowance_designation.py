@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class LateEntryPenalty(Document):
+class ExtraDayAllowanceDesignation(Document):
 	pass

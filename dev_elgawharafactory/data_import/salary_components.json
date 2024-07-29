@@ -12,5 +12,12 @@
         "salary_component": "Extra Day Allowance",
         "description": "Extra Day Allowance",
         "type": "Earning"
+    },
+    {
+        "doctype": "Salary Component",
+        "name": "Over Time",
+        "salary_component": "Over Time",
+        "description": "Over Time",
+        "type": "Earning"
     }
 ]

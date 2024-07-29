@@ -2,17 +2,23 @@ import frappe
 from datetime import datetime, timedelta
 
 
+def get_designations():
+    designations = frappe.get_all('Extra Day Allowance Designation', fields=['designation'])
+    return [d.designation for d in designations]
+
+
 def calculate_weekly_attendance_and_add_salary():
     today = datetime.now()
 
     # Calculate the previous Sunday
-    # today.weekday() returns 0 for Monday, 6 for Sunday
     days_since_sunday = today.weekday() + 1
     previous_sunday = today - timedelta(days=days_since_sunday + 7)
     last_saturday = previous_sunday + timedelta(days=6)
 
-    # Get all employees
-    employees = frappe.get_all('Employee', fields=['name', 'employee_name', 'ctc'])
+    # Get all employees with specific designations
+    designations = get_designations()
+    employees = frappe.get_all('Employee', filters={'designation': ['in', designations]},
+                               fields=['name', 'employee_name', 'ctc'])
 
     for employee in employees:
         # Get all check-ins for the employee from the previous Sunday to the last Saturday
@@ -20,8 +26,6 @@ def calculate_weekly_attendance_and_add_salary():
             'employee': employee.name,
             'time': ['between', [previous_sunday, last_saturday]]
         }, fields=['time'])
-
-        print(checkins)
 
         attended_days = set()
 

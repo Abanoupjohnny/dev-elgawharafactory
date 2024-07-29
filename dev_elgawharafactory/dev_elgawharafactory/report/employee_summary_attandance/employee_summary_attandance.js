@@ -1,7 +1,7 @@
 // Copyright (c) 2024, Abanoub Johnny and contributors
 // For license information, please see license.txt
 
-frappe.query_reports["Employee Daily Attendance"] = {
+frappe.query_reports["Employee Summary Attandance"] = {
 	"filters": [
 		{
 			label: 'Employee',
@@ -22,14 +22,14 @@ frappe.query_reports["Employee Daily Attendance"] = {
 			options: 'Branch'
 		},
 		{
-			label: 'From Date',
-			fieldname: 'from_date',
+			label: 'Start Date',
+			fieldname: 'start_date',
 			fieldtype: 'Date',
 			reqd:0
 		},
 		{
-			label: 'To Date',
-			fieldname: 'to_date',
+			label: 'End Date',
+			fieldname: 'start_date',
 			fieldtype: 'Date',
 			reqd:0
 		},

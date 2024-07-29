@@ -25,7 +25,7 @@ override_doctype_class = {
 scheduler_events = {
     "cron": {
         "0 8 * * 0": [
-            "dev_elgawharafactory.tasks.apply_additional_salary_to_extra_day"
+           "dev_elgawharafactory.tasks.employee_additional_salary.calculate_weekly_attendance_and_add_salary"
         ]
     }
 }
